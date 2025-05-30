@@ -1,0 +1,19 @@
+FROM python:3.10-slim
+
+# Install system packages needed for Playwright Chromium
+RUN apt-get update && apt-get install -y \
+    curl wget unzip xvfb libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+    libdrm2 libxcomposite1 libxrandr2 libgbm1 libxdamage1 libxfixes3 \
+    libxshmfence1 libasound2 libx11-xcb1 libgtk-3-0 && \
+    pip install --upgrade pip
+
+# Set working directory and copy backend code
+WORKDIR /app
+COPY . /app
+
+# Install Python dependencies
+RUN pip install -r requirements.txt
+RUN pip install playwright && playwright install chromium
+
+# Run the app using uvicorn (for FastAPI/Flask via ASGI wrapper)
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]

@@ -1,0 +1,17 @@
+app = "unibot-backend"
+
+[build]
+  dockerfile = "./Dockerfile"
+
+[env]
+  GROQ_API_KEY = "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"
+  GOOGLE_API_KEY = "AIzaSyBvYUmzASxOzphSFUsaTlCgu71iYhfCoLs"
+  SEARCH_ENGINE_ID = "2102a9afd28644dba"
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+
+  [[services.ports]]
+    handlers = ["http"]
+    port = 80
