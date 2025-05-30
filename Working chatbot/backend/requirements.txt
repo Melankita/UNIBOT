@@ -147,7 +147,6 @@ puremagic==1.28
 pyarrow==19.0.1
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
-PyAudio==0.2.14
 pybind11==2.13.6
 pycparser==2.22
 pycryptodome==3.22.0
