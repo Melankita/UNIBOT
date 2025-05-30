@@ -5,9 +5,10 @@ nixPkgs = ["python311", "gcc"]
 cmds = [
   "python -m venv /opt/venv",
   ". /opt/venv/bin/activate",
-  "pip install --upgrade pip",
+  "pip install --upgrade pip",           # 🚫 This silences the notice
   "pip install -r requirements.txt"
 ]
+
 
 [phases.build]
 cmds = []
