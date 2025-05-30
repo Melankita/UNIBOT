@@ -1,0 +1,112 @@
+Page 2 
+ 
+ 
+       UNIT -1 
+ 
+Digital Computers 
+ 
+Introduction 
+Computer – The word “computer “comes from the word “compute “which means to calculate. 
+So a computer is normally considered to be a calculating device that performs arithmetic 
+operations at enormous speed. A computer is an electronic device which is used to perform 
+operation on raw data as per instruction given by user. They are: 
+ 
+1) It accepts data or instructions through input, 
+2) It stores data, 
+3) It can process required data by the user, 
+4) It gives results as production, and 
+5) It controls all functions inside the computer. 
+ 
+1.Block diagram of digital computer and the functioning of its blocks 
+Computer is an electronic device which performs tasks given by user with extremely fast speed 
+and accuracy. Like any other device or machine, a computer system has also a number of parts. 
+A computer system can be blocked into mainly three parts: 
+ 
+1. 
+Input Unit 
+2. 
+Central Processing Unit 
+3. 
+Output Unit 
+ 
+ 
+1. Input unit – Input unit is a unit that accepts any input device. The input device 
+is used to input data into the computer system. Function of input unit. 
+ 
+1. It converts inputted data into binary codes. 
+2. It sends data to main memory of computer . 
+ 
+2. Central Processing Unit (CPU) – CPU is called the brain of a computer. An 
+Page 2 
+ 
+ 
+electronic circuitry that carries out the instruction given by a computer program. 
+CPU can be sub classified into three parts. 
+i. Control unit (CU). 
+ii. Arithmetic & Logic unit (ALU).        
+iii.Memory Unit (MU). 
+i. Control unit (CU)- the control unit manages the various components of the 
+computer. It reads instructions from memory and interpretation and changes in a 
+series of signals to activate other parts of the computer. It controls and co-ordinate 
+is input output memory and all other units. 
+ii. Arithmetic & Logic unit (ALU) – The arithmetic logic unit (ALU), which 
+performs simple arithmetic operation such as +,-, *, / and logical operation such as 
+>, <, =<, <= etc. 
+iii. Memory Unit (MU)- Memory is used to store data and instructions before and 
+after processing. Memory is also called Primary memory or internal memory. It is 
+used to store data temporary or permanently. 
+Function of CPU: 
+ 
+1. It controls all the parts and software and data flow of computer. 
+2. It performs all operations. 
+3. It accepts data from input device. 
+4. It sends information to output device. 
+5. Executing programs stored in memory. 
+6. It stores data either temporarily or permanent basis. 
+7. It performs arithmetical and logical operations. 
+ 
+3. Output Unit –Output unit is a unit that constituents a number of output device. An 
+output device is used to show the result of processing. 
+Function of Output unit: 
+ 
+1. It accepts data or information sends from main memory of computer 
+2. It converts binary coded information into HLL or inputted languages. 
+ 
+2.Definition of Computer organization & Architecture 
+ 
+Computer Organization: Computer organization is concerned with the way the hardware 
+components operate and the way they are connected together to form the computer system. 
+The various components are assumed to be in place and the task is to investigate the 
+organizational structure to verify that the computer parts operate as intended. 
+ 
+Computer Design: Computer design is concerned with the hardware design of the computer. 
+Once the computer specifications are formulated, it is the task of the designer to develop 
+hardware for the system. Computer design is concerned with the determination of what hardware 
+Page 2 
+ 
+ 
+should be used and how the parts should be connected. This aspect of computer hardware is 
+sometimes referred to as computer implementation. 
+ 
+Computer Architecture: Computer architecture is concerned with the structure and behavior 
+of the computer as seen by the user. It includes the information formats, the instruction set, and 
+techniques for addressing memory. The architectural design of a computer system is concerned 
+with the specifications of the various functional modules, such as processors and memories, 
+and structuring them together into a computer system. 
+ 
+Basic Computer Organization and Design 
+1.Computer Registers 
+ 
+The registers available in the computer are. 
+Page 2 
+ 
+ 
+ 
+2.Common Bus System 
+ 
+The basic computer has eight registers, a memory unit, and a control unit. Paths must be provided to transfer 
+information from one register to another and between memory and registers. The number of wires will be excessive if 
+connections are made between the outputs of each register and the inputs of the other registers.A more efficient scheme 
+for transferring information in a system with many registers is to use a common bus. The connection of the registers and 
+memory of the basic computer to a common bus system is shown in Fig. below. The outputs of seven registers and 
+memory are connected to the common bus. The specific output that is selected fo

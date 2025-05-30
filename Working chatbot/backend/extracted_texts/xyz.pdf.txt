@@ -1,0 +1,220 @@
+KR23 
+OPERATING SYSTEMS 
+CSE/IT/CSM/CSD II/II 
+1 
+ 
+OPERATING SYSTEMS 
+UNIT – 1  
+A computer system is divided into two categories: Hardware and Software.  
+Hardware refers to the physical and visible components of the system such as a monitor, CPU, 
+keyboard and mouse.  
+Software, on the other hand, refers to a set of instructions which enable the hardware to perform 
+a specific set of tasks. 
+ 
+ 
+ 
+Types of Computer Software 
+ 
+System Software 
+ 
+Application Software 
+System Software 
+System software is essential for running and managing computer hardware. It includes operating 
+systems, device drivers, and utility programs. 
+Features of System Software 
+ 
+Written in a low-level language for better hardware interaction. 
+ 
+Functions close to the system hardware. 
+ 
+Executes faster than application software. 
+ 
+Difficult to design and understand. 
+ 
+Acts as an interface between hardware and application software. 
+Functions of System Software 
+ 
+Memory Management: Allocates and deallocates memory dynamically. 
+ 
+Processor Management: Manages CPU scheduling for efficient execution. 
+ 
+File Management: Organizes, retrieves, and controls access to files. 
+ 
+Security Management: Protects data and system resources from unauthorized access. 
+KR23 
+OPERATING SYSTEMS 
+CSE/IT/CSM/CSD II/II 
+2 
+ 
+ 
+Error Handling: Detects and resolves system errors. 
+Example of System Software: 
+Operating systems like Linux, Windows, and MacOS are examples of system software that 
+manage hardware and provide a platform for applications. 
+Application Software 
+Application software is designed to perform specific user tasks, such as word processing, 
+gaming, or web browsing. 
+Features of Application Software 
+ 
+Written in high-level languages like Python, Java, or C++. 
+ 
+Provides a user-friendly interface. 
+ 
+Requires user interaction. 
+ 
+Designed for end-users. 
+Functions of Application Software 
+ 
+Data Management: Handles storage and processing of user data. 
+ 
+Multimedia Processing: Includes graphics, animations, and video editing tools. 
+ 
+Communication Tools: Facilitates email, messaging, and video conferencing. 
+ 
+Industry-Specific Applications: Includes software for healthcare, finance, and education. 
+Example of Application Software: 
+Microsoft Word is an example of application software used for document editing and formatting. 
+ 
+Introduction to Operating Systems 
+An operating system (OS) is a fundamental component of a computer system that acts as an 
+interface between the user and the hardware. It ensures efficient management of resources and 
+provides essential services required for smooth execution of programs. Without an operating 
+system, a computer would not be able to function effectively as there would be no systematic way 
+to manage hardware and software interactions. 
+What is an Operating System? 
+An operating system is an interface between the user and the computer, facilitating communication 
+and coordination between them. 
+ 
+Definition of an Operating System 
+An Operating System (OS) is a collection of software that: 
+ 
+Manages hardware resources 
+ 
+Provides various services to the users 
+KR23 
+OPERATING SYSTEMS 
+CSE/IT/CSM/CSD II/II 
+3 
+ 
+Goals of an Operating System 
+1. Execute user programs and make problem-solving easier – The OS provides an 
+environment where user applications can run efficiently. 
+2. Enhance convenience – It ensures the computer system is user-friendly and simplifies 
+interactions with hardware. 
+3. Optimize hardware utilization – The OS maximizes the efficiency of system resources such 
+as CPU, memory, and storage. 
+For example, in a multitasking environment like Windows, multiple applications such as a web 
+browser, a media player, and a document editor can run simultaneously without interference, 
+thanks to the OS managing the system resources effectively. 
+ 
+ 
+ 
+Operating System Objectives 
+The OS is designed to achieve several objectives that ensure smooth and efficient system 
+operations. 
+1. Resource Management: Manages CPU, memory, storage, and input/output devices to 
+optimize system performance. 
+2. Abstraction: Hides hardware complexity, allowing users to interact with the system easily. 
+3. Security and Protection: Implements authentication and encryption to protect system 
+resources. 
+4. Concurrency: Supports multitasking and multithreading for efficient process execution. 
+5. User Interface: Provides graphical (GUI) or command-line (CLI) interfaces for user 
+interaction. 
+KR23 
+OPERATING SYSTEMS 
+CSE/IT/CSM/CSD II/II 
+4 
+ 
+6. Error Detection and Handling: Detects faults in hardware and software and prevents 
+failures. 
+7. Efficiency: Optimizes system resource utilization and minimizes response time. 
+ 
+Operating System Views 
+The operating system can be observed from the point of view of the user or the system. This is 
+known as the user view and the system view respectively.  
+ 
+User View: 
+The user view depends on the system interface that is used by the users. The different types of 
+user view experiences can be explained as follows − 
+ 
+If the user is using a personal computer, the operating system is largely designed to make 
+the interaction easy. Some attention is also paid to the performance of the system, but there is no 
+need for the operating system to worry about resource utilization. This is because the personal 
+computer uses all the resources available and there is no sharing. 
+ 
+If the user is using a system connected to a mainframe or a minicomputer, the operating 
+system is largely concerned with resource utilization. This is because there may be multiple 
+terminals connected to the mainframe and the operating system makes sure that all the resources 
+such as CPU, memory, I/O devices etc. are divided uniformly between them. 
+ 
+If the user is sitting on a workstation connected to other workstations through networks, 
+then the operating system needs to focus on both individual usage of resources and sharing 
+though the network. This happens because the workstation exclusively uses its own resources but 
+it also needs to share files etc. with other workstations across the network. 
+ 
+If the user is using a handheld computer such as a mobile, then the operating system 
+handles the usability of the device including a few remote operations. The battery level of the 
+device is also taken into account. 
+ 
+There are some devices that contain very less or no user view because there is no interaction 
+with the users. Examples are embedded computers in home devices, automobiles etc. 
+System View: 
+KR23 
+OPERATING SYSTEMS 
+CSE/IT/CSM/CSD II/II 
+5 
+ 
+From the System point of view the operating system is the program which is most intermediate 
+with the hardware.  
+ The system views the operating system as a resource allocator. There are many resources such 
+as CPU time, memory space, file storage space, I/O devices etc. that are required by processes 
+for execution. It is the duty of the operating system to allocate these resources judiciously to the 
+processes so that the computer system can run as smoothly as possible. 
+ The operating system can also work as a control program. It manages all the processes and 
+I/O devices so that the computer system works smoothly and there are no errors. It makes sure 
+that the I/O devices work in a proper manner without creating problems. 
+Operating System Services 
+Operating system services are fundamental functionalities provided by an operating system (OS) 
+to support the execution of application software.  
+An Operating System provides services to both the users and to the programs. It provides 
+programs, an environment to execute. It provides users, services to execute the programs in a 
+convenient manner. 
+Following are the services provided by operating systems to both users and to the programs: 
+Users 
+• 
+User Interface 
+• 
+Program Execution 
+• 
+I/O Operations 
+• 
+File-System Manipulation 
+• 
+Communication 
+• 
+Error Detection 
+System/Programs 
+• 
+Resource Allocation 
+• 
+Accounting 
+• 
+Protection and Security 
+KR23 
+OPERATING SYSTEMS 
+CSE/IT/CSM/CSD II/II 
+6 
+ 
+1. User Interface 
+An interface allows users to interact with the system more easily and intuitively. Many operating 
+systems provide user interfaces, such as command-line interfaces (CLI), graphical user interfaces 
+(GUI) and Batch Based Interface.  
+ 
+A Command-Line Interface (CLI) is a text-based user interface used to interact with software and 
+operating systems. Through a CLI, users can input text commands to perform specific tasks 
+A GUI usually consists of all the graphical icons displayed on a computer screen, visual indicators 
+like widgets, texts, labels, and text navigation. Thus, a user can directly perform actions with a 
+click of the mouse or keyboard. 
+A Batch-based interface in computing refers to a method of interaction between the user and the 
+computer system or software where commands or a series of commands are prepared in advance 
+and then exe
