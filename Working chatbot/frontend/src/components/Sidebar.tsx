@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, MessageCircle, Bell, Calendar, Book, Brain, User } from 'lucide-react';
-import { useAuth } from 'E:\\chat\\Working\\Working chatbot\\frontend\\src\\context\\AuthContext.tsx'; // <-- Ensure correct path to your AuthContext
+import { useAuth } from "../context/AuthContext"; // <-- Ensure correct path to your AuthContext
 
 interface SidebarProps {
   isOpen: boolean;
