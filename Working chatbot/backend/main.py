@@ -8,7 +8,9 @@ import json
 import logging
 import traceback
 import os
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+import torch
+device = torch.device("cpu")
 from LiveNotification_worker import fetch_bulletins
 from chat_response_worker import chat_with_bot, perform_web_search, save_feedback, save_user_credentials
 from pdf_upload_worker import handle_pdf_upload, get_study_response  # ✅ IMPORTED HERE
